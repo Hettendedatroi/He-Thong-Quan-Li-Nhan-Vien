@@ -90,7 +90,7 @@ EmployeeManagement/
 
 ```mermaid
 erDiagram
-    DEPARTMENTS ||--o{ EMPLOYEES
+    DEPARTMENTS ||--o{ EMPLOYEES : "gồm"
 
     USERS {
         INT Id PK
